@@ -35,8 +35,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="ejercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tema3.ejercicio" />
+    <configuration name="tema3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.tema3" />
       <module name="IP - Ejercicios" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,7 +44,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ejercicio" />
+        <item itemvalue="Application.tema3Ejercicio" />
       </list>
     </recent_temporary>
   </component>

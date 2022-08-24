@@ -1,6 +1,6 @@
-package tema3;
+package ejercicios;
 
-public class ejercicio {
+public class tema3 {
     public static void main(String[] args) {
         // Firsts part
         int result;
@@ -10,7 +10,7 @@ public class ejercicio {
         // Second part
         Car car1 = new Car();
         car1.plusDoor();
-        System.out.println("Número de puertas" + car1.door);
+        System.out.println("Número de puertas: " + car1.door);
     }
 
     public static int suma(int num1, int num2, int num3) {
