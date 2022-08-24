@@ -55,5 +55,25 @@ public class Tema4 {
             default:
                 System.out.println("No es una estación.");
         }
+
+        // Par o impar
+        System.out.println(" ");
+        int numero = 2;
+        if (numero % 2 == 0) {
+            System.out.println("Es par");
+        } else {
+            System.out.println("Es impar");
+        }
+
+        // Bucle for each en Java con int y con string. Se envia directamente la posición en i.
+        int[] arrayNumeros = {1, 2, 3, 4, 5};
+        for (int i : arrayNumeros) {
+            System.out.println(i);
+        }
+
+        String[] arrayString = {"uno", "dos", "tres", "cuatro", "cinco"};
+        for (String i : arrayString) {
+            System.out.println(i);
+        }
     }
 }
