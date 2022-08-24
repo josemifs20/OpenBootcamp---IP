@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class tema4 {
+public class Tema4 {
     public static void main(String[] args) {
 
         // Estructura condicional if

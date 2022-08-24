@@ -1,10 +1,10 @@
 package ejercicios;
 
-public class tema3 {
+public class Tema3 {
     public static void main(String[] args) {
         // Firsts part
         int result;
-        result = suma(1, 2, 3);
+        result = sumar(1, 2, 3);
         System.out.println("Resultado de la suma: " + result);
 
         // Second part
@@ -13,7 +13,7 @@ public class tema3 {
         System.out.println("Número de puertas: " + car1.door);
     }
 
-    public static int suma(int num1, int num2, int num3) {
+    public static int sumar(int num1, int num2, int num3) {
         return (num1 + num2 + num3);
 
     }
