@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f0fb6ea-488e-49f0-85be-1afc2cf1d564" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tema3/ejercicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IP - Ejercicios/tema3/ejercicio$Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IP - Ejercicios/tema3/ejercicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IP- EjercicioTema3/Main$Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IP- EjercicioTema3/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
