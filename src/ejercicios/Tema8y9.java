@@ -33,7 +33,17 @@ public class Tema8y9 {
         trabajador.setNombre("Luis");
         trabajador.setTelefono(78456748);
         trabajador.setSalario(1000);
-        System.out.printf("El nombre del trabajador es %s y tiene %d años, su número de telefono es %d. Su salario es de %d", trabajador.getNombre(), trabajador.getEdad(), trabajador.getTelefono(), trabajador.getSalario());
+        System.out.printf("El nombre del trabajador es %s y tiene %d años, su número de telefono es %d. Su salario es de %d%n", trabajador.getNombre(), trabajador.getEdad(), trabajador.getTelefono(), trabajador.getSalario());
+
+        // Prueba enovoltorio, llamamos a función envoltorio y le pasamos una instancia que implementa la interfaz.
+        Coche coche = new Coche();
+        EjecutaAcelerar(coche);
+        Moto moto = new Moto();
+        EjecutaAcelerar(moto);
+    }
+    // Prueba función envoltorio que recibe interfaz por parámetro.
+    public static void EjecutaAcelerar(Vehiculo vehiculo) {
+        vehiculo.Acelerar(15);
     }
 }
 
@@ -101,3 +111,33 @@ class Trabajador extends Persona {
     }
 }
 
+// Interface y clases que implementan la interfaz. Código pruebra.
+interface Vehiculo {
+    void Acelerar(int velocidad);
+
+    void Frenar(int velocidad);
+}
+
+class Coche implements Vehiculo {
+    @Override
+    public void Acelerar(int velocidad) {
+        System.out.println("Coche - Acelerar");
+    }
+
+    @Override
+    public void Frenar(int velocidad) {
+        System.out.println("Coche - Frenar");
+    }
+}
+
+class Moto implements Vehiculo {
+    @Override
+    public void Acelerar(int velocidad) {
+        System.out.println("Moto - Acelerar");
+    }
+
+    @Override
+    public void Frenar(int velocidad) {
+        System.out.println("Moto - Frenar");
+    }
+}
